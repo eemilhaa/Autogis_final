@@ -30,6 +30,7 @@ Fill in details of your final project below. You can remove this instructions-se
 ### Input data:
 
 ### Analysis steps:
+1. Select cells from YKR grid by geocoding
 
 ### Results:
 
