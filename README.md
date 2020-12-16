@@ -30,7 +30,12 @@ Fill in details of your final project below. You can remove this instructions-se
 ### Input data:
 
 ### Analysis steps:
-1. Select cells from YKR grid by geocoding
+1. Select origin and destination cells from YKR grid
+    1.1. Select and geocode origin and destination addresses. Selection by user input
+    1.2. Define centroids (points) for YKR grid cells (polygons)
+    1.3. Find the nearest grid cell and its YKR ID for both origin and destination points.
+    
+2. 
 
 ### Results:
 
