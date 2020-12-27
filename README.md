@@ -35,7 +35,7 @@ The tool displays the resulting route and its information as an interactive map.
 In theory this tool could work with any address pair in the Helsinki region. However, to achieve this the complete travel time matrix (with its 13 231 different files) would be needed. To keep my repository size reasonable, I chose to only upload the data of the travel times to the grid cells that contain univeristy of Helsinki campuses. With this limitation the tool takes any address that is within the travel time matrix area as origin address, but can only use 4 different addresses (the university campuses) as destinations. 
 
 ### Structure of this repository:
-All of the code is found in the **Final_exercise.ipynb** notebook. Data is in the **data** folder, which has 2 subfolders: **traveltimes** for the travel time data and **YKR** for the YKR grid data. There's also a separate **img** folder for the workflow chart I used to describe the analysis steps.
+All of the code is found in the **Final_exercise.ipynb** notebook. Data is in the **data** folder, which has 2 subfolders: **traveltimes** for the travel time data and **YKR** for the YKR grid data. There's also a separate **img** folder for the workflow chart I used to describe the analysis steps and a **map** folder for the finished interactive map.
 
 ### Input data:
 - The Helsinki Region Travel Time Matrix, available at: https://blogs.helsinki.fi/accessibility/helsinki-region-travel-time-matrix/
@@ -50,7 +50,7 @@ The analysis steps are covered in the workflow chart below:
 ![Workflow chart](img/workflow.png)
 
 ### Results:
-The tool displays the shortest route from the origin address to destination on an interactive map. The map shows details about the origin, destination and the route.
+The tool displays the shortest route from the origin address to the destination address on an interactive map. The map shows details about the origin, destination and the route.
 
 ### References:
 Here are some resources I found helful (somewhat arranged in the order of importance for me):
@@ -62,6 +62,5 @@ Here are some resources I found helful (somewhat arranged in the order of import
 - Python datetime calculations: https://docs.python.org/3/library/datetime.html
 - OSMnx documentation: https://osmnx.readthedocs.io/en/stable/osmnx.html
 - Python operators: https://www.w3schools.com/python/python_operators.asp
-- This helped me to add a line geodataframe to a folium map (there are probably easier ways as well): https://anitagraser.com/2019/10/31/interactive-plots-for-geopandas-geodataframe-of-linestrings/
 - String replacement syntax: https://www.w3schools.com/python/ref_string_replace.asp
 - And countless stack overflow threads
