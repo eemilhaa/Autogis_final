@@ -21,7 +21,7 @@ The tool displays the resulting route and its information as an interactive map.
 In theory this tool could work with any address pair in the Helsinki region. However, to achieve this the complete travel time matrix (with its 13 231 different files) would be needed. To keep my repository size reasonable, I chose to only upload the data of the travel times to the grid cells that contain univeristy of Helsinki campuses. With this limitation the tool takes any address that is within the travel time matrix area as origin address, but can only use 4 different addresses (the university campuses) as destinations. 
 
 ### Structure of this repository:
-All of the code is found in the **Final_exercise.ipynb** notebook. Data is in the **data** folder, which has 2 subfolders: **traveltimes** for the travel time data and **YKR** for the YKR grid data. There's also a separate **img** folder for the workflow chart I used to describe the analysis steps and a **map** folder for the finished interactive map (An e.
+All of the code is found in the **Final_exercise.ipynb** notebook. Data is in the **data** folder, which has 2 subfolders: **traveltimes** for the travel time data and **YKR** for the YKR grid data. There's also a separate **img** folder for the workflow chart I used to describe the analysis steps and a **map** folder for the finished interactive map (with an example map included).
 
 ### Input data:
 - The Helsinki Region Travel Time Matrix, available at: https://blogs.helsinki.fi/accessibility/helsinki-region-travel-time-matrix/
